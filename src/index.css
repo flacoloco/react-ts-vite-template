@@ -1,0 +1,81 @@
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+form,
+button,
+input,
+textarea {
+  font-family: Verdana, sans-serif;
+  line-height: 1.6;
+  color: #eee;
+}
+
+body {
+  background-color: #111;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+button,
+input,
+textarea {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Remove any animations or transitions that might affect layout or rendering */
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
